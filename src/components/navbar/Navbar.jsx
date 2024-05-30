@@ -7,7 +7,7 @@ function Navbar({ usersLength }) {
       <div className="navbar-container container">
         <h1 className="navbar-logo">CUseR</h1>
         <h3 className="navbar-counter">
-          {usersLength > 0 ? `You have: ${usersLength}` : `No user`}
+          {usersLength > 0 ? `You have: ${usersLength}` : `No user;(`}
         </h3>
       </div>
     </div>
